@@ -44,5 +44,5 @@ if (event.target.matches(".cancel") ||
 !event.target.closest(".contact")){
 closeForm()
 }
-}, false )
+}, false)
 
