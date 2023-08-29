@@ -23,7 +23,6 @@ if (n < 1) {slideIndex = slides.length}; // If n (the number passed into the fun
 for (i = 0; i<slides.length; i++){
 slides[i].style.display = "none"; // This for loop takes each item in the array "slides" and sets the display to none
 }
-}
 
 for (i = 0; i <dots.length; i++){
 dots[i].className = dots[i].className.replace(" active", ""); // This for loop takes each item in the array "dots" and removes "active" which removes the active styling
